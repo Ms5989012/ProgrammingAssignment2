@@ -1,3 +1,12 @@
+hi there!
+-># I set the Input x as a matrix
+-># and then set the solved value "s" as a null
+-># then I changed every reference to "mean" to "solve"
+
+
+
+
+
 makeCacheMatrix <- function(x = matrix()) {
   
   inv <- NULL
@@ -10,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
   getinv <- function() inv
   list(set = set, get = get, setinv = setinv, getinv = getinv)
 }
-
+#here I do the same as previous code
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   inv <- x$getinv()
